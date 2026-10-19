@@ -1,0 +1,27 @@
+def main():
+    print("=" * 35)
+    print("       LIZZY AI ASSISTANT")
+    print("=" * 35)
+
+    name = input("Before we begin, what is your name? ")
+
+    print(f"\nHello, {name}!")
+    print("I am Lizzy, your personal AI assistant.")
+    print("I am at the beginning of my development journey.")
+
+    while True:
+        message = input("\nYou: ")
+
+        if message.lower() == "exit":
+            print("Lizzy: Goodbye! See you soon.")
+            break
+
+        elif message.strip() == "":
+            print("Lizzy: You haven't entered anything.")
+
+        else:
+            print(f"Lizzy: You said, '{message}'")
+
+
+if __name__ == "__main__":
+    main()

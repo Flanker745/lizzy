@@ -1,0 +1,46 @@
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+backend/.venv/
+backend/Lizzy_ai/.venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# React / Vite
+dist/
+dist-ssr/
+*.local
+
+# Tauri / Rust
+src-tauri/target/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+tempCodeRunnerFile.py
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Local application memory (if private)
+backend/Lizzy_ai/memory.json
